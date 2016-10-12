@@ -1,23 +1,24 @@
 {
-    "name": "connect-ml",
-    "description": "MarkLogic session store for Connect",
-    "version": "0.1.0",
-    "author": "Bruce Holt <bholt@gmail.com>",
-    "contributors": [
-        "TJ Holowaychuk <tj@vision-media.ca>",
-        "Marc Harter <wavded@gmail.com>"
-    ],
-    "license": "MIT",
-    "main": "./index.js",
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:bluetorch/connect-ml.git"
-    },
-    "bugs": {
-        "url": "https://github.com/bluetorch/connect-ml/issues"
-    },
-    "dependencies": {
-        "marklogic": "^1.0.5",
-        "debug": "^2.2.0"
-    }
+  "name": "connect-ml",
+  "description": "MarkLogic session store for Connect",
+  "version": "0.1.0",
+  "author": "Bruce Holt <bholt@gmail.com>",
+  "contributors": [
+    "TJ Holowaychuk <tj@vision-media.ca>",
+    "Marc Harter <wavded@gmail.com>"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bluetorch/connect-ml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bluetorch/connect-ml/issues"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "marklogic": "^1.0.5",
+    "util": "^0.10.3"
+  }
 }
